@@ -6,40 +6,38 @@ package com.tmbs.ta05_06;
 import javax.swing.JOptionPane;
 
 public class Main_EJ06 {
-	
+
 	public static void main(String[] args) {
 
 		final double IVA21 = 0.21;
-		String msg = "EXIT APP";
+		String msgResutl = "EXIT APP";
 		double priceProduct = 0.0;
-		
+
 		do {
-			
+
 			String priceImput = JOptionPane.showInputDialog("Introduce el precio del producto:");
 			priceProduct = checkValidPrice(priceImput);
-			
-		} while (priceProduct==0);
-		
+
+		} while (priceProduct == 0);
+
 		if (priceProduct != -1.0) {
 			double priceVAT = (priceProduct * IVA21) + priceProduct;
-			msg = "El precio del producto \n" + priceVAT + "€. IVA INC.";
+			msgResutl = "El precio del producto \n" + priceVAT + "€. IVA INC.";
 		}
-		
-		JOptionPane.showMessageDialog(null, msg);
-			
+
+		JOptionPane.showMessageDialog(null, msgResutl);
+
 	}
-	
-	
-	
+
 	private static double checkValidPrice(String numStr) {
-		
-		try {	
-			   return Double.parseDouble(numStr);
-			} catch (NumberFormatException nfe) {
-				return 0.0;
-			} catch (NullPointerException npe) {
-				return -1.0;
-			}
+
+		try {
+			return Double.parseDouble(numStr);
+		} catch (NumberFormatException nfe) {
+			return 0.0;
+		} catch (NullPointerException npe) {
+			return -1.0;
+		}
 
 	}
 

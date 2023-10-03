@@ -6,14 +6,14 @@ import javax.swing.JOptionPane;
 //(recuerda usar JOptionPane).
 
 public class Main_EJ03 {
-	
+
 	public static void main(String[] args) {
-		
-		String nameUser = JOptionPane.showInputDialog( null,"Introduce tu nombre" ,"EJERCICIO 3" , 3 );
+
+		String nameUser = JOptionPane.showInputDialog(null, "Introduce tu nombre", "EJERCICIO 3", 3);
 
 		if (nameUser != null) {
-			JOptionPane.showMessageDialog(null, "Bienvenido " + nameUser , "EJERCICIO 3", -1 );
+			JOptionPane.showMessageDialog(null, "Bienvenido " + nameUser, "EJERCICIO 3", -1);
 		}
-		
+
 	}
 }
