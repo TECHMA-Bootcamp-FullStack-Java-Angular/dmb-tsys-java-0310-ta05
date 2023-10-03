@@ -10,5 +10,6 @@ public class Main_EJ09 {
 	public static void main(String[] args) {
 
 		IntStream.rangeClosed(1, 100).filter(e -> e % 2 == 0 || e % 3 == 0).forEach(System.out::println);
+		
 	}
 }
