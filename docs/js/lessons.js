@@ -3,7 +3,7 @@ export const lessons = [
     numLessons: 3,
     issue: 'Java SE',
     day: 7,
-    msg: '<i> Paso a paso </i> 🌱',
+    msg: '<i>Madre mia, Esto va a todo tren </i> 🚂',
     myProgress: '🥚 > 🐣',
 
     exercise: [
@@ -22,7 +22,7 @@ export const lessons = [
         title: '',
         description: `Declara un String que contenga tu nombre, después muestra un mensaje de bienvenida
         por consola. Por ejemplo: si introduzco “Fernando”, me aparezca “Bienvenido Fernando”.`,
-        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0210-ta04/blob/main/src/com/tmbs/ta04_02/Main_EJ02.java',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_02/Main_EJ02.java',
         urlPG: 'https://www.jdoodle.com/embed/v0/6F4O'
       },
       {
@@ -30,7 +30,7 @@ export const lessons = [
         title: '',
         description: `Modifica la aplicación anterior, para que nos pida el nombre que queremos introducir
         (recuerda usar JOptionPane).`,
-        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0210-ta04/blob/main/src/com/tmbs/ta04_03/Main_EJ03.java',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_03/Main_EJ03.java',
         urlPG: `javascript:window.alert('🤷‍♂️ Lo lamentamos no se puede tener accaso a javax.swing en el Playground')`
       },
       {
@@ -39,7 +39,7 @@ export const lessons = [
         description: `Haz una aplicación que calcule el área de un circulo (pi*R?). El radio se pedirá por teclado
         (recuerda pasar de String a double con Double.parseDouble). Usa la constante PI y el
         método pow de Math.`,
-        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0210-ta04/blob/main/src/com/tmbs/ta04_04/Main_EJ04.java',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_04/Main_EJ04.java',
         urlPG: null
       },
       {
@@ -47,7 +47,7 @@ export const lessons = [
         title: '',
         description: `Lee un número por teclado e indica si es divisible entre 2 (resto = 0). Si no lo es, también
         debemos indicarlo.`,
-        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0210-ta04/blob/main/src/com/tmbs/ta04_05/Main_EJ05.java',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_05/Main_EJ05.java',
         urlPG: null
       },
       {
@@ -55,21 +55,21 @@ export const lessons = [
         title: '',
         description: `Lee un número por teclado que pida el precio de un producto (puede tener decimales) y
         calcule el precio final con IVA. El IVA sera una constante que sera del 21%`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_06/Main_EJ06.java',
         urlPG: null
       },
       {
         numExercise: 7,
         title: '',
         description: `Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while.`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_07/Main_EJ07.java',
         urlPG: ``
       },
       {
         numExercise: 8,
         title: '',
         description: `Haz el mismo ejercicio anterior con un bucle for.`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_08/Main_EJ08.java',
         urlPG: null
       },
       {
@@ -77,7 +77,7 @@ export const lessons = [
         title: '',
         description: `Muestra los números del 1 al 100 (ambos incluidos) divisibles entre 2 y 3. Utiliza el bucle
         que desees.`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_09/Main_EJ09.java',
         urlPG: null
       },
       {
@@ -86,7 +86,7 @@ export const lessons = [
         description: `Realiza una aplicación que nos pida un número de ventas a introducir, después nos
         pedirá tantas ventas por teclado como número de ventas se hayan indicado. Al final
         mostrara la suma de todas las ventas. Piensa que es lo que se repite y lo que no.`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_10/Main_EJ10.java',
         urlPG: null
       },
       {
@@ -94,7 +94,7 @@ export const lessons = [
         title: '',
         description: `Crea una aplicación que nos pida un día de la semana y que nos diga si es un día laboral
         O no. Usa un switch para ello.`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_11/Main_EJ11.java',
         urlPG: null
       },
       {
@@ -104,7 +104,7 @@ export const lessons = [
         <p> Después se te pedirá que introduzcas la contraseña, con 3 intentos. Cuando aciertes ya no pedirá mas
         la contraseña y mostrara un mensaje diciendo “Enhorabuena”.</P> Piensa bien en la condición
         de salida (3 intentos y si acierta sale, aunque le queden intentos).`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_12/Main_EJ12.java',
         urlPG: null
       },
       {
@@ -121,7 +121,7 @@ export const lessons = [
         <li> /: divide los operandos, este debe dar un resultado con decimales (double)</li>
         <li> ^: 1e operando como base y 2ª como exponente.</li>
         <li> %: módulo, resto de la división entre operando1 y operando2.</li>`,
-        urlCode: '',
+        urlCode: 'https://github.com/TECHMA-Bootcamp-FullStack-Java-Angular/dmb-tsys-java-0310-ta05/blob/main/src/com/tmbs/ta05_13/Main_EJ13.java',
         urlPG: null
       },
     ]
